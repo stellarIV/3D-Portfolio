@@ -50,7 +50,7 @@ const Experience = () => {
         <p className={styles.sectionSubText}>
           What I have done so far
         </p>
-        <h2 className={styles.sectionHeadText}>Work Experiance.</h2>
+        <h2 className={styles.sectionHeadText}>Experiance.</h2>
     </motion.div>
 
     <div className='mt-20 flex flex-col'>

@@ -90,7 +90,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          This is where I showcase my extensive experience in developing various applications. With a deep passion for technology and a keen eye for detail, I have worked on a diverse range of projects, from sleek, user-friendly websites to robust Java-based applications that streamline business processes. My expertise extends to mobile app development, where I create innovative and intuitive solutions. Each project highlights my commitment to delivering high-quality, scalable, and efficient software tailored to meet client needs and exceed expectations.
+          This is where I showcase my extensive experience in developing various applications. <span className='hidden sm:block'>With a deep passion for technology and a keen eye for detail, I have worked on a diverse range of projects, from sleek, user-friendly websites to robust Java-based applications that streamline business processes.</span> My expertise extends to mobile app development, where I create innovative and intuitive solutions. Each project highlights my commitment to delivering high-quality, scalable, and efficient software tailored to meet client needs and exceed expectations.
         </motion.p>
       </div>
 

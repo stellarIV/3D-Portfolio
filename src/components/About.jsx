@@ -45,7 +45,7 @@ const About = () => {
       variants={fadeIn('','',0.1,1)}
       className='mt-4 dark:text-secondary text-[#6d6d6d] text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a versatile full-stack developer with expertise in building dynamic, responsive applications using React.js, Tailwind CSS, and TypeScript, combined with backend proficiency in Node.js, Express.js, and MongoDB for efficient API integration and database management. I specialize in optimizing performance, implementing secure authentication systems, and integrating advanced 3D visuals with Three.js. My experience extends to mobile development with Flutter, API consumption, and real-time data fetching, as well as desktop application development using JavaFX and FXML. This broad skill set enables me to create seamless, user-centric web and mobile applications.
+        I am a versatile full-stack developer with expertise in building dynamic, responsive applications using React.js, Tailwind CSS, and TypeScript, combined with backend proficiency in Node.js, Express.js, and MongoDB for efficient API integration and database management. <span className='hidden sm:block'>I specialize in optimizing performance, implementing secure authentication systems, and integrating advanced 3D visuals with Three.js. My experience extends to mobile development with Flutter, API consumption, and real-time data fetching, as well as desktop application development using JavaFX and FXML.</span> This broad skill set enables me to create seamless, user-centric web and mobile applications.
       </motion.p>
       <div className="mt-20 flex flex-wrap justify-center gap-10">
         {services.map((service, index)=>(
