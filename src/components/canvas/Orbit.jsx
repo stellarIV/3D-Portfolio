@@ -31,7 +31,7 @@ const themes = {
     sunLightColor: '#fff9e6',
     sunColor: '#fff8eb',
     skyColor: '#fff',
-    groundColor: '#555',
+    groundColor: '#1b161a',
   },
 };
 

@@ -31,7 +31,7 @@ const App = () => {
 
   return (
    <BrowserRouter>
-   <div className="relative z-0 transition-all duration-500 bg-white dark:bg-primary dark:text-white text-black ">
+   <div className="relative z-0 transition-all duration-500 bg-[#fff9f0] dark:bg-primary dark:text-white text-black ">
     <div className="bg-hero-pattern2 dark:bg-hero-pattern bg-cover bg-no-repeat bg-center">
       <Navbar theme={theme} handleClick={handleClick} />
       <Hero theme={theme} setTheme={setTheme} />
