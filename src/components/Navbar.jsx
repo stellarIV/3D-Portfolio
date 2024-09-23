@@ -38,7 +38,7 @@ const Navbar = ({theme, handleClick}) => {
   // }
   
   return (
-    <nav className={`${styles.paddingX}  transition-all w-full flex items-center py-5 fixed top-0 z-20 bg-[#ffffffb2] dark:bg-primary`}>
+    <nav className={`${styles.paddingX}  transition-all w-full flex items-center py-5 fixed top-0 z-20 backdrop-blur-sm bg-[#ffffffb2] dark:bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
           to='/'
@@ -58,8 +58,8 @@ const Navbar = ({theme, handleClick}) => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? 'text-orange-500 dark:text-white' : 'text-secondary'
-              } hover:text-black dark:hover:text-white text-[18px] font-medium cursor-pointer duration-300`}
+                active === link.title ? 'text-orange-500 dark:text-white' : 'text-gray-700 dark:text-secondary'
+              } hover:text-orange-600 dark:hover:text-white text-[18px] font-medium cursor-pointer duration-300`}
               onClick={() => setActive(link.title)}>
               <a href={`${link.id}`}>{link.title}</a>
             </li>
