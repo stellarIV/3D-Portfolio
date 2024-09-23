@@ -58,7 +58,7 @@ const Navbar = ({theme, handleClick}) => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? 'text-white' : 'text-secondary'
+                active === link.title ? 'text-orange-500 dark:text-white' : 'text-secondary'
               } hover:text-black dark:hover:text-white text-[18px] font-medium cursor-pointer duration-300`}
               onClick={() => setActive(link.title)}>
               <a href={`${link.id}`}>{link.title}</a>
