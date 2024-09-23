@@ -207,7 +207,7 @@ import {
     {
       name: "GYM Gang",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that is a model UI for a gym website. Providing a convenient and efficient solution for advertisment of a good responsive website.",
       tags: [
         {
           name: "React",
@@ -228,7 +228,7 @@ import {
     {
       name: "Chat App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to chat with each other. Allowing users to communicate securely, configured with different themes and respinsive design.",
       tags: [
         {
           name: "React",
@@ -249,7 +249,7 @@ import {
     {
       name: "Watch Movie",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive movie website dedicated to test the ability of using some frameworks and databases. using creative design styles and cradient coloring to get to a standard oriented movie website.",
       tags: [
         {
           name: "Vue",
@@ -270,7 +270,7 @@ import {
     {
       name: "Clothing Store",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A UI design based on figma and as theey say learn from the best to get to be the best so i modeled this web by studying different webs standards to get to designing this website",
       tags: [
         {
           name: "Figma",
