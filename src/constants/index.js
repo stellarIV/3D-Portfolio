@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Development",
       icon: web,
     },
     {
-      title: "Flutter Developer",
+      title: "Flutter App Development",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
-      title: "Java Developer",
+      title: "Java App Development",
       icon: creator,
     },
   ];
@@ -112,7 +112,7 @@ import {
   
   const experiences = [
     {
-      title: "C++ Developer",
+      title: "C++ App Development",
       company_name: "BDU",
       icon: shopify,
       iconBg: "#383E56",
@@ -125,7 +125,7 @@ import {
       ],
     },
     {
-      title: "Java Developer",
+      title: "Java App Development",
       company_name: "BDU",
       icon: starbucks,
       iconBg: "#383E56",
