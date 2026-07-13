@@ -27,18 +27,26 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./logo2.png";
-import shopify from "./company/starbucks.png";
+import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import insa from "./company/INSA.jpg";
+import sk from "./company/sk.jpg";
+import p6 from "./p6.jpg";
+import p7 from "./p7.png";
+import p8 from "./p8.png";
 
 
 export {
-  
   backend,
   creator,
   mobile,
+  p6,
+  p7,
+  p8, 
+  sk,
   web,
+  insa,
   github,
   menu,
   close,

@@ -18,11 +18,16 @@ import {
     meta,
     starbucks,
     tesla,
+    insa,
     shopify,
     
     p1,p2,p3,p4,p5,
     
     threejs,
+    sk,
+    p6,
+    p7,
+    p8,
   } from "../assets";
   
   export const navLinks = [
@@ -112,32 +117,44 @@ import {
   
   const experiences = [
     {
-      title: "C++ App Development",
-      company_name: "BDU",
-      icon: shopify,
+      title: "full stack Developer Intern",
+      company_name: "Skillbridge Institute of Technology",
+      icon: sk,
       iconBg: "#383E56",
-      date: "Sep 2022 - feb 2023",
+      date: "Apr 2026 - july 2026",
       points: [
-        "Teaching C++ and other related technologies about its applications.",
+        "Demonstrated absolute ownership and resilience by single-handedly completing the application despite team transitions, successfully balancing full-stack delivery with rigorous preparation for university exit exams.",
+        "Built the application using React and Node.js, delivering a functional, responsive solution under challenging circumstances.",
         "Collaborating with other people including senior students and other teachers to ensure better-quality services.",
         "Ensuring inclusive and supportive environment for maximum success rate.",
-        "Learning the process of teaching and the art behind it.",
       ],
     },
     {
-      title: "Java App Development",
-      company_name: "BDU",
-      icon: starbucks,
+      title: "Backend Developer",
+      company_name: "Bebe technologies Startup",
+      icon: redux,
       iconBg: "#383E56",
-      date: "Dec 2023 - feb 2024",
+      date: "Dec 2025 - feb 2026",
       points: [
-        "Developing and maintaining web applications' security and authentication using Java and other related technologies.",
-        "Collaborating with cross-functional teams including product managers, and other developers to ensure better-quality services.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed and maintained full-stack applications using NestJS (backend), React/Next.js, and modern databases, implementing security measures and performance optimizations.",
+        "Streamlined project workflows and team processes, boosting overall efficiency and ensuring on-time delivery of engineering projects.",
       ],
     },
     {
-      title: "Fullstack Development",
+      title: "AI/ML engineer and Data Scientist",
+      company_name: "INSA",
+      icon: insa,
+      iconBg: "#E6DEDD",
+      date: "Mar 2025 - Aug 2025",
+      points: [
+        "Analysed and pre-processed 500MB of sensitive legal documents using custom-engineered algorithms for efficient data cleaning, chunking, and embedding preparation.",
+        "Contributed to an anomaly detection system for monitoring employee browsing patterns to identify security threats.",
+        "Engineered the full retrieval pipeline using TensorFlow, Hugging Face Transformers, semantic",
+        "sentence-based chunking, and Chroma vector database, managing end-to-end lifecycle from data ingestion to response generation. ",
+      ],
+    },
+    {
+      title: "Fullstack Development Trainee",
       company_name: "Minab Tech",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -151,7 +168,7 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Private Training",
+      company_name: "Freelance",
       icon: meta,
       iconBg: "#383E56",
       date: "Aug 2024 - Present",
@@ -164,7 +181,7 @@ import {
     },
     {
       title: "Full stack Developer",
-      company_name: "Private Training",
+      company_name: "Freelance",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jul 2024 - Present",
@@ -205,46 +222,67 @@ import {
   
   const projects = [
     {
-      name: "GYM Gang",
+      name: "RAG Based Amharic Legal Chatbot",
       description:
-        "Web-based platform that is a model UI for a gym website. Providing a convenient and efficient solution for advertisment of a good responsive website.",
+        "Extended the INSA RAG system into a production-ready legal chatbot for Ethiopian context, providing accurate, cited responses on legal queries using domain-specific documents. Integrated advanced retrieval techniques and guardrails for reliability and compliance.",
       tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: p3,
-      source_code_link: "https://github.com/stellarIV",
-    },
-    {
-      name: "Chat App",
-      description:
-        "Web application that enables users to chat with each other. Allowing users to communicate securely, configured with different themes and respinsive design.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Convex",
-          color: "green-text-gradient",
-        },
         {
           name: "NextJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "FastAPI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Jupyter Notebook",
           color: "pink-text-gradient",
         },
       ],
-      image: p5,
-      source_code_link: "https://github.com/stellarIV",
+      image: p6,
+      source_code_link: "https://github.com/stellarIV/Zufan",
+    },
+    {
+      name: "Finance Management System",
+      description:
+        "Led full SDLC development of a secure, role-based web application for school financial operations (invoicing, budgeting, reporting). Automated manual processes, improving administrative efficiency by 60% through payment gateway integration, automated payroll and data synchronization.",
+      tags: [
+        {
+          name: "NextJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Postgresql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "BetterAuth",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: p7,
+      source_code_link: "https://fms-red.vercel.app/presentation",
+    },
+    {
+      name: "Naney E-learning Platform",
+      description:
+        "Building an offline-first AI tutoring platform inspired by LM Studio, targeting accessible education in low connectivity areas. Implemented core features including instructor/student roles, rate limiting, input validation, CAPTCHA, and secure authentication. Currently enhancing with AI assistance bot for personalized lessons and discussion forums; integrating local LLM capabilities for fully functional offline tutoring.",
+      tags: [
+        {
+          name: "NextJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Postgresql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cloudfare",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: p8,
+      source_code_link: "https://naneylms.vercel.app",
     },
     {
       name: "Watch Movie",
@@ -281,12 +319,16 @@ import {
       source_code_link: "https://www.figma.com/proto/3LeLTop30ZcBmgzd3JHoZ1/Untitled?node-id=7-360&node-type=canvas&t=fEmWqCWWfwwERMyE-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
     },
     {
-      name: "Secret Project",
+      name: "E-commerce Website",
       description:
-        "A project I am working on private, to come up with eazier way to manage some stuff which is to be released soon.",
+        "Designed and launched a full-stack e-commerce solution (MERN/Next.js) to empower independent sellers in Ethiopia. Successfully scaled to 50+ active sellers and buyers before platform limitations (MongoDB free-tier constraints) forced a pivot; gained deep insights into production scaling, cost management, and real-user feedback.",
       tags: [
         {
-          name: "Unknown",
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
           color: "blue-text-gradient",
         },
         
